@@ -8,7 +8,7 @@ psql -a -v ON_ERROR_STOP=1 --username "${POSTGRES_USER:-postgres}" <<-EOSQL
     GRANT ALL PRIVILEGES ON DATABASE gitlabhq_production to gitlab;
 
     -- Create Odoo stuff
-
+    -- will be done later
 EOSQL
 
 psql -a -v ON_ERROR_STOP=1 --username "${POSTGRES_USER:-postgres}" gitlabhq_production <<-EOSQL
