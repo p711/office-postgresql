@@ -1,5 +1,5 @@
 # using postgresql 9.6 because Gitlab expects that one.
-FROM postgres:9.6
+FROM postgres:9.2
 MAINTAINER Ron Arts <ron.arts@p711.net>
 
 #RUN locale-gen en_US.UTF-8  
